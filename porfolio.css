@@ -1,0 +1,226 @@
+/* home */
+h4{
+    margin-top: 50%;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+h1{
+    color: rgb(139, 3, 250); 
+    text-align: center;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    background-color: rgb(139, 3, 250);
+    color: rgb(245, 255, 255);
+    border-radius: 20px;
+    margin: 10px 0 50px 0;
+    
+}
+.img-fluid{
+    width:  100%;
+    margin-top: 30px;
+}
+.home{
+    background-image: url(img/untitled.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 9in;
+    background-size: cover;
+    background-position: center;
+}
+
+/* about */
+.title{
+    font-weight: bold;
+    color: black;
+    margin-top: 150px;
+    padding: 30px;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+}
+.Name{
+    margin: 20px 0 0 3px;
+    text-align: left;
+}
+.bar{
+    margin: 30px 0 0 30px;
+}
+    
+
+/* Service */
+.icon, .service{
+   text-align: center;
+   
+}
+.pic{
+    width: 80px;
+    height: auto;
+    
+}
+.head{
+    
+    margin: 20px 0 20px 0;
+    
+}
+/* card */
+.call{
+    background-image: url(img/programmer.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    margin: 100px 0 100px 0;
+    background-size: cover;
+}
+.cover{
+    color: white;
+    margin-top: 100px;
+}
+li{
+    display: inline;
+}
+.submit{
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+    border-color: rgb(139, 3, 250);
+    color: rgb(139, 3, 250);
+    border-radius: 100px;
+    
+}
+.submit:hover{
+    background-color: rgb(139, 3, 250);
+    color: white
+}
+/* work  */
+
+.content /*image*/{
+    width: 100%;
+    height: auto;
+    
+    display: block;
+}
+.work-image {
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(139, 3, 250);
+  }
+  
+  .work-image:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .work-title {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ .btn-work{
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+    border-color: rgb(139, 3, 250);
+    color: rgb(139, 3, 250);
+    border-radius: 100px;
+    transition-duration: 1s;
+    
+ }
+ .btn-work:hover{
+    background-color: rgb(139, 3, 250);
+    color: white;
+}
+/* contact */
+.cntact{
+    width: 70px;
+    height: auto;
+
+}
+input{
+    width: 100%;
+    padding: 15px;
+    
+}
+.single-form{
+    margin: 30px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+
+.footer-area{
+    background-color: darkslateblue;
+    height: 400px;
+}
+.logo{
+    margin-bottom: 100px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.footer-copyright{
+    background-color: rgb(49, 39, 108);
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+    
+
+
